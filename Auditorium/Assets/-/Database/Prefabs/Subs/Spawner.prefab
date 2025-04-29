@@ -44,4 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85955b0c8cd34ab4abb4fcf26f0dfbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quadPrefab: {fileID: 0}
+  _particlePrefab: {fileID: 8285128557658905598, guid: e386b8f181deac84b92b5ce7993c6f1d, type: 3}
+  _maxParticles: 5
+  _spawnInterval: 0.5
+  _particleRotation: -135
+  _spawnRadius: 0.4
+  _particleSpeed: 100
