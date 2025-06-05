@@ -16,6 +16,7 @@ namespace Game.Runtime
 
         private void Awake()
         {
+            transform.position += new Vector3(0.01f, 0, 0);
             _rb = GetComponent<Rigidbody2D>();
         }
 
